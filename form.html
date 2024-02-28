@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <title>Signup</title>
+    <link rel="icon" href="img/icon.ico" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="css/SignUp.css" rel="stylesheet" />
+  </head>
+
+  <body1 class="text-center">
+    <main class="form-signup">
+      <table class="table table-hover">
+        <form action="pakri/datakredit.php" method="post">
+          <img class="mb-4" src="img/icon.ico" alt="" width="57" height="57" />
+          <h1 class="h3 mb-3 fw-normal">Silahkan isi form dibawah ini</h1>
+          <tr align="left">
+            <td>Nama Pembeli</td>
+            <td>
+              <input name="pembeli" type="text" placeholder="Nama lengkap" class="form-control" />
+            </td>
+          </tr>
+          <tr align="left">
+            <td>Zona Wilayah</td>
+            <td>
+              <input name="wilayah" type="text" placeholder="Pilih daerah anda" class="form-control" />
+            </td>
+          <tr align="left">
+            <td>Pilih Mobil</td>
+            <td>
+              <select name="pilihmobil" id="jenismbl" class="form-select" aria-label="Default select example">
+                  <option value="Civic">Civic (Rp.200.000.000)</option>
+                  <option value="Jeep">Jeep (Rp.250.000.000)</option>
+                  <option value="Terios">Terios (Rp.200.000.000)</option>
+                  <option value="Pajero">Pajero (Rp.300.000.000)</option>
+                  <option value="Luxury">Luxury (Rp.150.000.000)</option>
+              </select>
+            </td>
+          </tr>
+          </tr>
+          <tr align="left">
+            <td>Bunga (5 - 10%)</td>
+            <td>
+              <input name="bunga" type="text" placeholder="Input tanpa (%)" class="form-control" />
+            </td>
+          </tr>
+          <tr align="left">
+            <td>DP (30 - 100%)</td>
+            <td>
+              <input
+              type="text"
+              name="dp"
+              class="form-control"
+              placeholder="Input tanpa (%)"
+              />
+            </td>
+          </tr>
+          <tr align="left">
+            <td>Lama Angsuran (1 - 15 Th)</td>
+            <td>
+              <input
+              type="text"
+              class="form-control"
+              placeholder="Input tanpa (th)"
+              name="lmangsuran" 
+              />
+            </td>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td id="button" colspan="2" align="center">
+              <input class="w-100 btn btn-lg btn-primary" type="submit" value="Selanjutnya" /> <br />
+            </td>
+          </tr>
+        </form>
+      </table>
+      <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+    </main>
+  </body1>
+</html>
